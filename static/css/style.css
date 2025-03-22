@@ -62,7 +62,7 @@ html[data-theme="Dark"] {
     
     --main_text_color: #fff;
     --gradient:linear-gradient(120deg, rgb(133, 62, 255), #f76cc6 30%, rgb(255, 255, 255) 60%);
-    --purple_text_color: #747bff;
+    --purple_text_color: #ea9942;
     --text_bg_color: rgb(26, 4, 48);
     --item_bg_color: rgb(19, 20, 24);
     --item_hover_color: rgb(19, 23, 27);
@@ -70,8 +70,8 @@ html[data-theme="Dark"] {
     --item_left_text_color: rgb(142, 142, 142);
     --footer_text_color: #646464;
     --left_tag_item: linear-gradient(50deg, #1f2327, #000000);
-    --card_filter: 0px;
-    --back_filter: 0px;
+    --card_filter: 100px;
+    --back_filter: 100px;
     --back_filter_color: #000000;
     --fill:#ffffff;
 }
@@ -363,7 +363,7 @@ body {
 }
 
 .purpleText {
-    color: var(--purple_text_color);
+    color: #f59d95;
     font-weight: 800;
 }
 
